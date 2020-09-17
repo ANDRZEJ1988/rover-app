@@ -1,0 +1,45 @@
+body {
+  background: lightgray;
+}
+
+.all-selected {
+  border-radius: 80px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkblue;
+  font-size: 16px;
+
+  &-btn {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    background-color: lightsteelblue;
+    cursor: pointer;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  &-sel {
+    height: 30px;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  &-inp {
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+
+.option {
+  color: #1890ff;
+  font-size: 16px;
+}
